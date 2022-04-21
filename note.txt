@@ -1,0 +1,5 @@
+jsonwebtoken : login logout
+mogoose : server database
+argon : hash pass
+cors : fe connect be
+nodemon : reload server
