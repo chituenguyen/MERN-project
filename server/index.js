@@ -20,7 +20,6 @@ const connectDB = async () => {
 };
 connectDB();
 const app = express();
-app.get("/", (req, res) => res.send("Hello man"));
 app.use(express.json())
 app.use('/api/auth',authRouter)
 const PORT = 5000;
